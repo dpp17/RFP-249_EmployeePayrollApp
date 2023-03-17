@@ -4,6 +4,7 @@ body{
 }
 #header{
     padding: 15px 0;
+    height: 100px;
     background-color: #ffffff;
 }
 #header-content{
@@ -16,6 +17,7 @@ body{
 #logo{
     display: flex;
     flex-direction: row;
+    margin: 10px 10px 10px 115px;
     align-items: center;
     border: 0px solid green;
     width: 80%;
@@ -31,6 +33,7 @@ body{
     letter-spacing: 0px;
     color: #82a70c;
     text-transform: capitalize;
+    font-weight: bolder;
 }
 
 .logo-payroll{

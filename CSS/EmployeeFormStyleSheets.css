@@ -6,6 +6,13 @@
     justify-content: center;
     align-items: center;
     border: 0px solid green;
+    
+}
+
+input[type=radio] {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.2);
 }
 
 .form{
@@ -16,6 +23,7 @@
     border: 1px solid #f5f5f5;
     border-radius: 8px;
     opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(68, 68, 68, 0.2), 0 6px 20px 0 rgba(140, 140, 140, 0.19);
 }
 
 .form-head{
@@ -25,6 +33,7 @@
     text-transform: capitalize;
     opacity: 1;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .row-content{
@@ -49,6 +58,7 @@ label{
     color: #42515f;
     opacity: 1;
     font-family: Roboto;
+    /* padding: 1px; */
 }
 
 .input{
@@ -106,30 +116,24 @@ select{
     font-weight: 400;
     min-width: 140px;
     padding: 7px 7px;
-    border: 1px solid #707070;
+    border: 1px solid #a9a8a8;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .submitButton{
-    border: none;
     background-color: #c9c6c6;
     margin-right: 30px;
 }
 
 .cancelButton{
-    /* margin-left: 140px; */
-    border: none;
     text-decoration: none;
     text-align: center;
 }
-.resetButton{
-    border: none;
-}
 
 .button:hover{
-    /* background-color: rgb(31, 142, 216); */
     -webkit-text-fill-color: #ffffff;
+    background-color: #707070;
 }
 
 .submitButton:hover{
