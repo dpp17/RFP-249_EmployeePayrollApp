@@ -108,6 +108,7 @@ select{
     padding: 7px 7px;
     border: 1px solid #707070;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .submitButton{
@@ -127,8 +128,12 @@ select{
 }
 
 .button:hover{
-    background-color: rgb(31, 142, 216);
+    /* background-color: rgb(31, 142, 216); */
     -webkit-text-fill-color: #ffffff;
+}
+
+.submitButton:hover{
+    background-color: #82A70C;
 }
 
 @media only screen and (max-width: 960px){
